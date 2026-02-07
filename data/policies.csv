@@ -1,0 +1,4 @@
+policy_id,type,max_amount,income_condition
+P001,LowIncome,6500,income < 6500
+P002,General,20000,6500 <= income < 50000
+P003,HighIncome,20000,income >= 50000
