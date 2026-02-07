@@ -1,1 +1,8 @@
-Hello 66050498
+```
+npm install
+npm run dev
+```
+
+```
+open http://localhost:3000
+```
