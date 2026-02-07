@@ -9,7 +9,7 @@ export class RemedyModel {
   private dataPath = join(process.cwd(), "data");
 
   // ฟังก์ชันช่วยอ่าน CSV แปลงเป็น Array of Objects
-  private loadData(fileName: string) {
+  public loadData(fileName: string) {
     const filePath = join(this.dataPath, fileName);
     const content = readFileSync(filePath, "utf-8");
     const lines = content.split("\n").filter((l) => l.trim() !== "");
